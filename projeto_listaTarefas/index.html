@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+  <div class="container mt-5 p-4 bg-white rounded shadow" style="max-width: 400px;">
+    <h3 class="text-center">Minha Lista</h3>
+
+    <div class="input-group mb-3">
+      <input type="text" id="caixaTarefa" class="form-control" placeholder="Digite a tarefa">
+      <button id="botaoAdicionar" class="btn btn-primary">Adicionar</button>
+    </div>
+
+    <ul id="listaTarefas" class="list-group"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
